@@ -1,0 +1,5 @@
+#!/bin/sh
+chmod 777 /opt/CalibratorTool/CalibratorTool.desktop
+cp /opt/CalibratorTool/CalibratorTool.desktop /usr/share/applications/
+cp /opt/CalibratorTool/CalibratorTool.desktop ~/Desktop/
+

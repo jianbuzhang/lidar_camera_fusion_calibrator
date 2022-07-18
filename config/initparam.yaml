@@ -1,0 +1,44 @@
+%YAML:1.0
+---
+LeftBackWideAngle:
+   X: 500
+   Y: 500
+   Z: 500
+   Roll: 500
+   Pitch: 3000
+   Yaw: 500
+LeftFrontWideAngle:
+   X: 500
+   Y: 500
+   Z: 500
+   Roll: 500
+   Pitch: 3000
+   Yaw: 500
+RightFrontWideAngle:
+   X: 500
+   Y: 500
+   Z: 500
+   Roll: 500
+   Pitch: 3000
+   Yaw: 500
+RightBackWideAngle:
+   X: 500
+   Y: 500
+   Z: 500
+   Roll: 500
+   Pitch: 3000
+   Yaw: 500
+LeftLongFocus:
+   X: 500
+   Y: 500
+   Z: 500
+   Roll: 500
+   Pitch: 3000
+   Yaw: 500
+RightLongFocus:
+   X: 500
+   Y: 500
+   Z: 500
+   Roll: 500
+   Pitch: 3000
+   Yaw: 500

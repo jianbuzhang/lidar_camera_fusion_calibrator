@@ -1,0 +1,4 @@
+#!/bin/sh
+rm /usr/share/applications/CalibratorTool.desktop
+rm ~/Desktop/CalibratorTool.desktop
+

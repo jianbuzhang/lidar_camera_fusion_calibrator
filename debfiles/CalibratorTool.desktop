@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=CalibratorTool App
+Exec=/opt/CalibratorTool/CalibratorTool
+Icon=/opt/CalibratorTool/icon.png
+Comment=MOVE-X CalibratorTool App
+Terminal=false

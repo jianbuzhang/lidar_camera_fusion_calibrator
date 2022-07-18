@@ -1,0 +1,15 @@
+[INFO]未传入初始配置文件，使用默认配置！
+[INFO] 左前广角: X=500,Y=500,Z=500,Roll=500,Pitch=3000,Yaw=500
+[DEBUG]修改Z成功: Z=501
+[DEBUG]修改Z成功: Z=502
+[DEBUG]修改Z成功: Z=503
+[DEBUG]修改Z成功: Z=504
+[DEBUG]修改Z成功: Z=505
+[DEBUG]修改Z成功: Z=506
+[DEBUG]修改Z成功: Z=507
+[DEBUG]修改Z成功: Z=508
+[DEBUG]修改Z成功: Z=509
+[DEBUG]修改Z成功: Z=510
+[DEBUG]修改Z成功: Z=511
+[DEBUG]修改Z成功: Z=512
+[INFO]保存参数成功: /home/yixietang/work/git_repos/TBOX-TOOLS/CalibratorTool/testdata/2.yaml

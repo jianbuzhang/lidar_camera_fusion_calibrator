@@ -1,0 +1,53 @@
+#左后广角
+LeftBackWideAngle:
+  X: 100
+  Y: 100
+  Z: 100
+  Roll: 500
+  Pitch: 3000
+  Yaw: 500
+
+#左前广角
+LeftFrontWideAngle:
+  X: 200
+  Y: 200
+  Z: 200
+  Roll: 500
+  Pitch: 3000
+  Yaw: 500
+
+#右前广角
+RightFrontWideAngle:
+  X: 300
+  Y: 300
+  Z: 300
+  Roll: 500
+  Pitch: 3000
+  Yaw: 500
+
+#右后广角
+RightBackWideAngle:
+  X: 400
+  Y: 400
+  Z: 400
+  Roll: 500
+  Pitch: 3000
+  Yaw: 500
+
+#左长焦
+LeftLongFocus:
+  X: 500
+  Y: 500
+  Z: 500
+  Roll: 500
+  Pitch: 3000
+  Yaw: 500
+
+#右长焦
+RightLongFocus:
+  X: 600
+  Y: 600
+  Z: 600
+  Roll: 500
+  Pitch: 3000
+  Yaw: 500

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Fusion</class>
+ <widget class="QWidget" name="Fusion">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="font">
+   <font>
+    <family>Microsoft YaHei</family>
+    <pointsize>10</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Fusion</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="4" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="NO_Lable">
+         <property name="text">
+          <string>NO：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="X_Lable">
+         <property name="text">
+          <string>X(-1,1)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Y_Lable">
+         <property name="text">
+          <string>Y(-1,1)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Z_Lable">
+         <property name="text">
+          <string>Z(-1,1)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Roll_Lable">
+         <property name="text">
+          <string>Roll(-0.5,0.5)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Pitch_Lable">
+         <property name="text">
+          <string>Pitch(-3,3)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Yaw_Lable">
+         <property name="text">
+          <string>Yaw(-0.5,0.5)</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QSlider" name="No_Slider">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="X_Slider">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="Y_Slider">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="Z_Slider">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="Roll_Slider">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="Pitch_Slider">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSlider" name="Yaw_Slider">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QSpinBox" name="No_SpinBox">
+         <property name="minimumSize">
+          <size>
+           <width>60</width>
+           <height>26</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="X_SpinBox"/>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="Y_SpinBox"/>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="Z_SpinBox"/>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="Roll_SpinBox"/>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="Pitch_SpinBox"/>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="Yaw_SpinBox"/>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="2" column="5">
+      <widget class="QLineEdit" name="k3_lineEdit"/>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLineEdit" name="k2_lineEdit"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLineEdit" name="fy_lineEdit"/>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="fy_label">
+       <property name="text">
+        <string>fy：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="p1_label">
+       <property name="text">
+        <string>p1：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="fx_label">
+       <property name="text">
+        <string>fx：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QLineEdit" name="cy_lineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="k1_label">
+       <property name="text">
+        <string>k1：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="fx_lineEdit">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLineEdit" name="cx_lineEdit"/>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="k2_label">
+       <property name="text">
+        <string>k2：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLabel" name="cy_label">
+       <property name="text">
+        <string>cy：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0" colspan="3">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>相机内参：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="k1_lineEdit"/>
+     </item>
+     <item row="3" column="3">
+      <widget class="QLineEdit" name="p2_lineEdit"/>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLabel" name="p2_label">
+       <property name="text">
+        <string>p2：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="p1_lineEdit"/>
+     </item>
+     <item row="1" column="4">
+      <widget class="QLabel" name="cx_label">
+       <property name="text">
+        <string>cx：</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QLabel" name="k3_label">
+       <property name="text">
+        <string>k3：</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="3">
+      <widget class="QPushButton" name="OpenPcd_Button">
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>80</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>打开目录</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QPushButton" name="OpenCamCfg_Button">
+       <property name="text">
+        <string>打开文件</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>相机内参配置</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1" colspan="2">
+      <widget class="QLineEdit" name="PcdPath_lineEdit"/>
+     </item>
+     <item row="1" column="1" colspan="2">
+      <widget class="QLineEdit" name="CamCfg_lineEdit"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="minimumSize">
+        <size>
+         <width>80</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>80</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>图像点云目录</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="5,4,0">
+     <item>
+      <widget class="QScrollArea" name="scrollArea">
+       <property name="widgetResizable">
+        <bool>true</bool>
+       </property>
+       <widget class="QWidget" name="scrollAreaWidgetContents">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>379</width>
+          <height>118</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="0" column="0">
+          <widget class="QLabel" name="PcdImg_Lable">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QTextEdit" name="Log_textEdit">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="SaveParam_Button">
+         <property name="text">
+          <string>保存参数</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="SaveLog_Button">
+         <property name="text">
+          <string>保存日志</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>相机选择</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="SelCamCfg_comboBox">
+       <property name="minimumSize">
+        <size>
+         <width>120</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="baseSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="InitParamUpdate_Button">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>相机默认配置更新</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
